@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+:root {
+    --prime-color: #008080;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar {
+    background-color: #047aed;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+}
+
+/* Showcase */
+
+.showcase {
+    height: 400px;
+    background-color: var(--prime-color);
+}
+
+.showcase h1 {
+    font-size: 40px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.showcase p {
+    padding: 10px;
+    margin: 10px;
+}
+
+.showcase .grid {
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.showcase-card {
+    background-color: black;
+    border-radius: 15px;
+    width: 400px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.form-input {
+    margin: 10px;
+    padding: 2px;
+}
+
+ 
